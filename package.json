@@ -1,0 +1,22 @@
+{
+  "name": "@mix/source",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {},
+  "private": true,
+  "dependencies": {
+    "hono": "4.6.14"
+  },
+  "devDependencies": {
+    "@nx/js": "20.3.0",
+    "@swc-node/register": "~1.9.1",
+    "@swc/core": "~1.5.7",
+    "@swc/helpers": "~0.5.11",
+    "@types/node": "18.16.9",
+    "nx": "20.3.0",
+    "tslib": "^2.3.0",
+    "typescript": "~5.6.2",
+    "wrangler": "3.99.0"
+  },
+  "packageManager": "pnpm@9.14.1+sha512.7f1de9cffea40ff4594c48a94776112a0db325e81fb18a9400362ff7b7247f4fbd76c3011611c9f8ac58743c3dc526017894e07948de9b72052f874ee2edfdcd"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "@mix/app",
+  "version": "0.0.1",
+  "dependencies": {},
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "private": true,
+  "nx": {
+    "sourceRoot": "libs/app/src",
+    "projectType": "library",
+    "name": "app",
+    "targets": {
+      "serve": {
+        "executor": "nx:run-commands",
+        "options": {
+          "command": "wrangler dev",
+          "cwd": "{workspaceRoot}/libs/app"
+        }
+      }
+    }
+  }
+}
